@@ -101,7 +101,7 @@ func main() {
 
 	// Server
 	e.GET("/api/matches/:id", GetMatch)
-	e.GET("/health", Health)
+	e.GET("/health", Health) 
 	e.Logger.Fatal(e.Start(":9999"))
 }
 
